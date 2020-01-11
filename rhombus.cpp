@@ -35,7 +35,7 @@ point rhombus::center() const {
 }
 
 void rhombus::print(std::ostream& os) const {
-	os << "a1 = " << a1 << " a2 = " << a2 << " a3 = " << a3 << " a4 = " << a4 << "\n";
+    os << "rhombus\n" << a1 << "\n" << a2 << "\n" << a3 << "\n" << a4 << '\n';
 }
 
 double rhombus::area() const {
@@ -50,7 +50,7 @@ double rhombus::area() const {
 }
 
 void rhombus::printFile(std::ofstream &of) const {
-    of << "a1 = "<< a1 << " a2 = " << a2 << " a3 = " << a3 << " a4 = " << a4 << '\n';
+    of << "rhombus\n" << a1 << "\n" << a2 << "\n" << a3 << "\n" << a4 << '\n';
 }
 
 rhombus::rhombus(std::ifstream& is) {

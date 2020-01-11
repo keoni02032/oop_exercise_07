@@ -8,11 +8,11 @@ point hexagon::center() const {
     return p;
 }
 void hexagon::print(std::ostream& os) const {
-    os << "a1 = " << a1 << " a2 = " << a2 << " a3 = " << a3 << " a4 = " << a4 << " a5 = " << a5 << " a6 = " << a6 << "\n";
+    os << "hexagon\n" << a1 << "\n" << a2 << "\n" << a3 << "\n" << a4 << "\n" << a5 << "\n" << a6 << "\n";
 }
 
 void hexagon::printFile(std::ofstream &of) const {
-    of << "a1 = " << a1 << " a2 = " << a2 << " a3 = " << a3 << " a4 = " << a4 << " a5 = " << a5 << " a6 = " << a6 << "\n";
+    of << "hexagon\n" << a1 << "\n" << a2 << "\n" << a3 << "\n" << a4 << "\n" << a5 << "\n" << a6 << "\n";
 }
 
 double hexagon::area() const {

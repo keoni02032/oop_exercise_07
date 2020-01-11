@@ -12,11 +12,11 @@ point pentagon::center() const {
 }
 
 void pentagon::print(std::ostream& os) const {
-    os << "a1 = " << a1 << " a2 = " << a2 << " a3 = " << a3 << " a4 = " << a4 << " a5 = " << a5 << '\n';
+    os << "pentagon\n" << a1 << "\n" << a2 << "\n" << a3 << "\n" << a4 << "\n" << a5 << '\n';
 }
 
 void pentagon::printFile(std::ofstream& of) const {
-    of << "a1 = " << a1 << " a2 = " << a2 << " a3 = " << a3 << " a4 = " << a4 << " a5 = " << a5 << '\n';
+    of << "pentagon\n" << a1 << "\n" << a2 << "\n" << a3 << "\n" << a4 << "\n" << a5 << '\n';
 }
 
 double pentagon::area() const {
